@@ -119,7 +119,7 @@ module.exports = (options = {}) => (tree) => {
 
     const pre = h(
       'div',
-      { className: `remark-highlight` },
+      { className: `remark-highlight not-prose` },
       [
         h(
           'pre',
